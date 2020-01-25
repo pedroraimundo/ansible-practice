@@ -1,0 +1,10 @@
+#TEST PROJECT INVENTORY FILE
+
+#TARGETS
+target1 ansible_host=192.168.1.21 ansible_ssh_pass=osboxes.org
+target2 ansible_host=192.168.1.22 ansible_ssh_pass=osboxes.org
+
+#GROUPS
+[all-targets]
+target1
+target2
